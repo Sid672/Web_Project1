@@ -7,4 +7,4 @@ It contains:
 - New page
 - Registration form
 
-![Demo](https://replit.com/@Siddharthsing13/Webproject1#form.html)
+[Demo](https://replit.com/@Siddharthsing13/Webproject1#form.html)
