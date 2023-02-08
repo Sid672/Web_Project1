@@ -1,0 +1,12 @@
+body {
+	padding: 30px;
+}
+
+h1{
+	font-family: sans-serif;
+	transition: width 2s, height 4s;
+}
+
+.button {
+   margin-bottom: 10px;
+}
