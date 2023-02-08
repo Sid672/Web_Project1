@@ -1,49 +1,52 @@
+<!-- A Registration Form -->
+
 <!DOCTYPE html>
 <html>
-    <head>
-    	<title>Registration Form</title>
-    </head>
-    <body>
-        <h1>Simple form</h1>
-        <form>
-        	<strong>First Name:<br> <input type = "text" name = "First Name"></strong><br><br>
-        	<strong>Last Name:<br>  <input type = "text" name = "last name"></strong><br><br>
-        	<strong>Email:<br><input type = "email" name = "Email"></strong><br><br>
-            <strong>Password:<br><input type = "password" name = "pass"></strong><br><br>
-        	<strong>Date of birth:<br>  <input type = "date" name = "Date"></strong><br><br>
-        	<strong>Favorite season:</strong><br> 
-        	Summer<input type = "radio" name = "season"><br>
-        	Rainy<input type = "radio" name = "season"><br>
-            Winter<input type = "radio" name = "season"><br><br>
-        	<strong>Programming languages used:</strong><br>
-        	C++<input type = "checkbox" name = "C++"><br>
-        	Java<input type = "checkbox" name = "Java"><br>
-        	Python<input type = "checkbox" name = "Python"><br>
-        	C#<input type = "checkbox" name = "C#"><br>
-        	Javascript<input type = "checkbox" name = "Javascript"><br>
-        	Kotlin<input type = "checkbox" name = "Kotlin"><br>
-        	Golang<input type = "checkbox" name = "Golang"><br><br>
-            <label><strong>Favorite language:</strong></label>
-            <select name = "fav language">
-                <option value = "C++">C++</option>
-                <option value = "Java">Java</option>
-                <option value = "Python">Python</option>
-            </select><br><br>
-        	<input type = "submit">
-        	<input type = "reset">
-        </form>
-    </body>
-</html>
+  <head>
+    <link id="pagestyle" href="material-kit.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-<!-- Example of input data in the form:
-First+Name=harry
-&last+name=potter
-&Email=harry%40gmail.com
-&Date=2022-12-04
-&season=on
-&Java=on
-&Python=on
-&Kotlin=on
-&Golang=on
-&fav+language=C%2B%2B 
--->
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Simple form</h1>
+    <form>
+      <strong
+        >First Name:<br />
+        <input type="text" name="First Name" /></strong
+      ><br /><br />
+      <strong
+        >Last Name:<br />
+        <input type="text" name="last name" /></strong
+      ><br /><br />
+      <strong>Email:<br /><input type="email" name="Email" /></strong
+      ><br /><br />
+      <strong>Password:<br /><input type="password" name="pass" /></strong
+      ><br /><br />
+      <strong
+        >Date of birth:<br />
+        <input type="date" name="Date" /></strong
+      ><br /><br />
+      <strong>Favorite season:</strong><br />
+      Summer <input type="radio" name="season" /><br />
+      Rainy <input type="radio" name="season" /><br />
+      Winter <input type="radio" name="season" /><br /><br />
+      <strong>Programming languages used:</strong><br />
+      C++ <input type="checkbox" name="C++" /><br />
+      Java <input type="checkbox" name="Java" /><br />
+      Python <input type="checkbox" name="Python" /><br />
+      C# <input type="checkbox" name="C#" /><br />
+      Javascript <input type="checkbox" name="Javascript" /><br />
+      Kotlin <input type="checkbox" name="Kotlin" /><br />
+      Golang <input type="checkbox" name="Golang" /><br /><br />
+      <label><strong>Favorite language:</strong></label>
+      <select name="fav language">
+        <option value="C++">C++</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option></select
+      ><br /><br />
+      <input type="submit" class="btn btn-facebook mb-0 me-2" target="_blank" />
+      <input type="reset" class="btn btn-facebook mb-0 me-2" target="_blank" />
+    </form>
+  </body>
+</html>
