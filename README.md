@@ -6,5 +6,3 @@ It contains:
 - Home page
 - New page
 - Registration form
-
-[Demo](https://replit.com/@Siddharthsing13/Webproject1#index.html)
